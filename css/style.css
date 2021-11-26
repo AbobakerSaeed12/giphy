@@ -1,0 +1,50 @@
+
+body {
+    background-color: rgb(41, 40, 40);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images {
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    color: white;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.searchbar {
+    width: 800px;
+    height: 40px;
+    font-size: 20px;
+}
+.search-icon {
+    height: 24px;
+    width: 50px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+}
+.giphy-logo {
+    width: 50px;
+}
+footer span {
+    color: white;
+    margin-top: 20px
+}
+.giphy-letters {
+    font-weight: bold;
+    font-size: 20px;
+}
