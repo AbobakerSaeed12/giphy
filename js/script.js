@@ -5,9 +5,12 @@ function getGifs(e) {
     e.preventDefault()
     let searchValue = input.value;
     input.value = '';
-    const url = `https://api.giphy.com/v1/gifs/search?api_key=qXe0K6tr5cahunGnhKEd2278R9lwDkeE&q=${searchValue}&limit=24&offset=0&rating=g&lang=en`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=qXe0K6tr5cahunGnhKEd2278R9lwDkeE&q=${searchValue}&limit=18&offset=0&rating=g&lang=en`;
     fetch(url).then(res => res.json())
-    .then(renderGifs);
+    .then(renderGifs)
+    .catch(error => {
+        console.log("error")
+    })
 }
 function renderGifs(response) {
     let gifArray = response.data;

@@ -3,7 +3,9 @@ body {
     background-color: rgb(41, 40, 40);
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -16,35 +18,43 @@ body {
     margin: 30px;
     color: white;
 }
-form {
+
+form{
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
+
 .searchbar {
-    width: 800px;
+    width: 60%;
     height: 40px;
-    font-size: 20px;
+    font-size: 15px;
 }
+
 .search-icon {
     height: 24px;
     width: 50px;
 }
+
 footer {
     display: flex;
     justify-content: center;
     background-color: black;
-    height: 50px;
     padding: 10px;
+    position: sticky;
+    top: 100%;
 }
+
 .giphy-logo {
     width: 50px;
 }
+
 footer span {
     color: white;
     margin-top: 20px
 }
+
 .giphy-letters {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1rem;
 }
