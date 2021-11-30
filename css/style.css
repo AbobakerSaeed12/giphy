@@ -31,6 +31,10 @@ form{
     font-size: 15px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .search-icon {
     height: 24px;
     width: 50px;
