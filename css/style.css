@@ -13,8 +13,8 @@ body {
 }
 
 .images {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 30px;
     color: white;
 }
@@ -34,6 +34,9 @@ form{
 button {
     cursor: pointer;
 }
+button:hover {
+    background-color: rgba(247, 236, 236, 0.8);
+}
 
 .search-icon {
     height: 24px;
@@ -43,7 +46,7 @@ button {
 footer {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     padding: 10px;
     position: sticky;
     top: 100%;
@@ -61,4 +64,30 @@ footer span {
 .giphy-letters {
     font-weight: bold;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+    .images {
+        width: 200px;
+        height: 200px;
+    }
+    .searchbar {
+        width: 50%;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 270px) {
+    .searchbar {
+        width: 40%;
+        height: 40px;
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 225px) {
+    .images {
+        width: 180px;
+        height: 200px;
+    }
+   
 }
