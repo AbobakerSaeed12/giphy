@@ -50,6 +50,7 @@ footer {
     padding: 10px;
     position: sticky;
     top: 100%;
+    flex-wrap: wrap;
 }
 
 .giphy-logo {
@@ -72,22 +73,8 @@ footer span {
         height: 200px;
     }
     .searchbar {
-        width: 50%;
+        width: 40%;
         height: 40px;
         font-size: 10px;
     }
-}
-@media screen and (max-width: 270px) {
-    .searchbar {
-        width: 40%;
-        height: 40px;
-        font-size: 7px;
-    }
-}
-@media screen and (max-width: 225px) {
-    .images {
-        width: 180px;
-        height: 200px;
-    }
-   
 }
