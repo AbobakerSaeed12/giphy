@@ -6,7 +6,7 @@
 
 **AS A** typer
 **I WANT TO** use gifs 
-**SO THAT** i show facial expressions 
+**SO THAT** i show facial expressions.
 
-to check out the website use this Link
+To check out the website use this Link
 https://abobakersaeed12.github.io/giphy/index.html
